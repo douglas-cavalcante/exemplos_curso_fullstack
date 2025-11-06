@@ -8,7 +8,7 @@ var produtoExcessoEstoque = readlineSync.question(
 );
 var ehProdutoExcessoEstoque = produtoExcessoEstoque == "v" ? true : false;
 
-var valorDoProduto = readlineSync.keyInYN("Qual o valor do produto ?");
+var valorDoProduto = readlineSync.questionFloat("Qual o valor do produto ?");
 
 if (
   (ehProdutoSazonal == true && ehProdutoExcessoEstoque == true) ||
