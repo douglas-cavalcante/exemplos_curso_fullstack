@@ -57,11 +57,11 @@ if (media >= 652.25) {
 }
 
 function ordenarCrescente(a, b) {
-    return a - b
+  return a - b;
 }
 
 function ordenarDescrecente(a, b) {
-    return b - a
+  return b - a;
 }
 
-[5, 4,  10, 3, 2].sort(ordenarDescrecente)
+[5, 4, 10, 3, 2].sort(ordenarDescrecente);
