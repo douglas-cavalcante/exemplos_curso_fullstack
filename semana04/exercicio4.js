@@ -28,7 +28,7 @@ if (quantidade_produtos > 2) {
 } else if (quantidade_produtos == 2) {
   console.log(`Primeira informacao: ${produtos[0].nome}`);
   console.log(`Ultima informacao: ${produtos[quantidade_produtos - 1].nome}`);
-} else if (quantidade == 1) {
+} else if (quantidade_produtos == 1) {
   console.log(`Primeira informacao: ${produtos[0].nome}`);
 } else {
   console.log("Nao tem item na lista");
